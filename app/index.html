@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Socket</title>
+</head>
+<body>
+    <form id="form" action="./pages/chat.html">
+        <select name="select_room" id="select_room">
+            <option value="-1">Selecione sua sala</option>
+            <option value="node">Node</option>
+            <option value="java">Java</option>
+            <option value="javascript">JavaScript</option>
+            <option value="rust">Rust</option>
+        </select>
+
+        <div>
+            <label for="user">Digite o seu usuário:</label>
+            <input type="text" name="username" id="user" placeholder="Nome...">
+        </div>
+
+        <button>Entrar</button>
+    </form>
+</body>
+</html>
